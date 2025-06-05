@@ -11,9 +11,9 @@ It demonstrates how the gradient descent algorithm iteratively updates the input
 - The algorithm starts at $x = \frac{\pi}{4}$.
 - In each iteration, the input value is updated by moving opposite to the gradient direction scaled by a learning rate $\alpha = 0.1$:
 
-  $$
-  x_{\text{new}} = x_{\text{old}} - \alpha \times f'(x_{\text{old}})
-  $$
+$$
+x_{\text{new}} = x_{\text{old}} - \alpha \times f'(x_{\text{old}})
+$$
 
 - The process is animated with matplotlib to show the current point moving along the sine curve toward a minimum.
 
