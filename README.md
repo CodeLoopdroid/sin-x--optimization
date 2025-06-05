@@ -7,9 +7,9 @@ It demonstrates how the gradient descent algorithm iteratively updates the input
 
 - The function used is \( f(x) = \sin(x) \).
 - The derivative used for gradient updates is \( f'(x) = \cos(x) \).
-- The input domain spans from \(-8\pi\) to \(8\pi\) with small steps.
-- The algorithm starts at \( x = \pi/4 \).
-- In each iteration, the input value is updated by moving opposite to the gradient direction scaled by a learning rate (\(\alpha = 0.1\)):
+- The input domain spans from \( -8\pi \) to \( 8\pi \) with small steps.
+- The algorithm starts at \( x = \frac{\pi}{4} \).
+- In each iteration, the input value is updated by moving opposite to the gradient direction scaled by a learning rate \( \alpha = 0.1 \):
 
   $$
   x_{\text{new}} = x_{\text{old}} - \alpha \times f'(x_{\text{old}})
