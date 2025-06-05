@@ -1,6 +1,6 @@
 # sin-x--optimization
 
-This project visualizes **gradient descent** optimization applied to the function \( f(x) = \sin(x) \).  
+This project visualizes **gradient descent** optimization applied to the function $f(x) = \sin(x)$.
 It demonstrates how the gradient descent algorithm iteratively updates the input to approach a local minimum of the sine function by using its derivative.
 
 ## How it works
